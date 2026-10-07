@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        var s = new Solution22();
+        var s = new Solution45();
         
-        Console.WriteLine(string.Join(", ", s.GenerateParenthesis(3)));
+        Console.WriteLine(s.Jump( [2]));
     }
 }

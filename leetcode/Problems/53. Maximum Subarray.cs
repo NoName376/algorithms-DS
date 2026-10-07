@@ -1,6 +1,7 @@
 namespace leetcode;
 
-public class Solution53 {
+public class Solution53 
+{
     public int MaxSubArray(int[] nums)
     {
         var dp = new int[nums.Length];

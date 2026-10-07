@@ -2,8 +2,10 @@ namespace leetcode;
 
 using System.Collections.Generic;
 
-public class Solution649 {
-    public string PredictPartyVictory(string senate) {
+public class Solution649 
+{
+    public string PredictPartyVictory(string senate) 
+    {
         
         var unbanned = new Queue<char>(senate); 
 

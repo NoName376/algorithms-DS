@@ -1,7 +1,9 @@
 namespace leetcode;
 
-public class Solution322 {
-    public int CoinChange(int[] coins, int amount) {
+public class Solution322 
+{
+    public int CoinChange(int[] coins, int amount) 
+    {
         
         if(amount == 0)
         {

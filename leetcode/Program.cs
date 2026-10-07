@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        var s = new Solution55();
+        var s = new Solution1871();
         
-        Console.WriteLine(s.CanJump( [2,3,1,1,4]));
+        Console.WriteLine(s.CanReach("01101110", 2, 3));
     }
 }

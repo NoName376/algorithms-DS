@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        var s = new Solution5();
+        var s = new Solution22();
         
-        Console.WriteLine(s.LongestPalindrome("bb"));
+        Console.WriteLine(string.Join(", ", s.GenerateParenthesis(3)));
     }
 }

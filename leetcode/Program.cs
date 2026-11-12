@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        var s = new Solution330();
+        var s = new Solution1220();
         
-        Console.WriteLine(s.MinPatches([4, 10], 19));
+        Console.WriteLine(s.CountVowelPermutation(1));
     }
 }
